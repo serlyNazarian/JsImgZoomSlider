@@ -19,16 +19,12 @@ zoomback.onclick = function() {
     zoomback.style.display = "none";
 }
 
-console.log(item);
-
 
 
 let x = 0;
 
 
 next.onclick = function () {
-     console.log('item[x] = ',item[x]);
-
      let imgUrl = item[x].querySelector('img').src;
         zoom.style.display = "block";
         zoomback.style.display = "block";
